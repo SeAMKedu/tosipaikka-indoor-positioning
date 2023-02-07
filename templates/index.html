@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/fontawesome/css/fontawesome.css">
+    <link rel="stylesheet" href="/static/css/fontawesome/css/solid.css">
+    <link rel="stylesheet" href="/static/css/leaflet.css">
+    <link rel="stylesheet" href="/static/css/mystyles.css">
+    <script src="/static/js/lib/bootstrap.min.js"></script>
+    <script src="/static/js/lib/leaflet.js"></script>
+    <script src="/static/js/lib/paho-mqtt-min.js"></script>
+    <title>SeAMK | Tosipaikka</title>
+</head>
+<body>
+    <div id="map"></div>
+    <img id="framiA" src="" alt="">
+
+    <div id="topbuttons">
+        <button class="btn btn-success" type="button" onclick="gotoHome()">
+            <i class="fa-solid fa-house-chimney"></i> Home
+        </button>
+        <button id="floor1" class="btn btn-primary" type="button" onclick="showFloorplan(1)">
+            <i class="fa-solid fa-layer-group"></i> Floor 1
+        </button>
+        <button id="floor2" class="btn btn-primary" type="button" onclick="showFloorplan(2)">
+            <i class="fa-solid fa-layer-group"></i> Floor 2
+        </button>
+        <button id="mqtt-status" class="btn" type="button" disabled>
+            <i class="fa-solid fa-server"></i> MQTT
+        </button>
+    </div>
+
+    <div id="bottomcenter">
+        <button id="location" class="btn btn-info disabled" type="button">
+            <i class="fa-solid fa-location-pin"></i> 62.788825, 22.822326
+        </button>
+    </div>
+
+    <script src="/static/js/location.js"></script>
+    <script src="/static/js/mqttclient.js"></script>
+</body>
+</html>
