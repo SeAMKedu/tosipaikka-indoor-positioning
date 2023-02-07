@@ -1,5 +1,7 @@
 # Sisätilapaikannus
 
+[![DOI](https://zenodo.org/badge/598501916.svg)](https://zenodo.org/badge/latestdoi/598501916)
+
 Yksinkertainen verkkosovellus, jolla voidaan visualisoida käyttäjän sijaintia Frami A -rakennuksen ensimmäisessä ja toisessa kerroksessa. Sovellus vastaanottaa käyttäjän sijainnin ammattikorkeakoulun MQTT-palvelimelta.
 
 ## Riippuvuudet
