@@ -47,6 +47,10 @@ Kerroksen numero on kokonaisluku, kun taas pituus- ja leveysasteet ovat desimaal
 
 Sulje sovellus painamalla Ctrl+c.
 
+## Tekijätiedot
+
+Hannu Hakalahti, Asiantuntija TKI, Seinäjoen ammattikorkeakoulu
+
 ## TosiPaikka-hanke
 
 Tämä sovellus on kehitetty osana Tosiaikaisen paikkadatan hyödyntäminen teollisuudessa (TosiPaikka) -hanketta, jota rahoittaa Etelä-Pohjanmaan liitto (EAKR). Lisätietoja hankkeesta löytyy hankkeen [kotisivuilta](https://projektit.seamk.fi/alykkaat-teknologiat/tosipaikka/).
